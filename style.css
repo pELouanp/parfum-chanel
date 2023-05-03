@@ -58,6 +58,7 @@ img {
 #actual {
   font-size: 25px;
   font-weight: bold;
+  color: hsl(159, 80%, 21%);
 }
 #old {
   text-decoration: line-through;
@@ -67,6 +68,15 @@ img {
   main {
     flex-direction: column;
   }
+  .gauche {
+    background-image: url(image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 266px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
   .droite {
     margin-top: -5px;
     width: 57.5%;
@@ -74,7 +84,6 @@ img {
     border-bottom-left-radius: 10px;
   }
   img {
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 0;
+    display: none;
   }
 }
